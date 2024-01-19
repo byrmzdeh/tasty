@@ -1,0 +1,24 @@
+.basket{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 40px;
+    table{
+        width: 80%;
+        margin-top: 50px;
+        td{
+            text-align: center;
+    
+            button{
+                background-color: rgb(205, 21, 21);
+                color: white;
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}

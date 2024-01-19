@@ -1,0 +1,52 @@
+.blog {
+    max-width: 100%;
+    min-height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e7e7e7;
+
+    p {
+        color: gray;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 70px;
+        margin-top: 70px;
+
+
+        .card {
+
+            width: 400px;
+            height: 400px;
+            display: flex;
+            cursor: pointer;
+            gap: 20px;
+            padding: 10px;
+            transition: 0.3s;
+            justify-content: space-evenly;
+            flex-direction: column;
+
+
+            img {
+                width: 400px;
+                height: 230px;
+           
+            }
+
+            h3 {
+                color: #ffb400 ;
+            }
+
+           
+
+
+
+
+        }
+    }
+}

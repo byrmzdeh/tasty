@@ -1,0 +1,66 @@
+.slider{
+    img{
+        width: 100%;
+        height: 90vh;
+    }
+    .text{
+        position: absolute;
+        top: 40%;
+        left: 27%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        button{
+            width: 150px;
+            height: 50px;
+            border: 1px solid white;
+            color: white;
+            background-color: transparent;
+            font-weight: bolder;
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.5);
+                border: none;
+                color: white;
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 60px;
+            color: white;
+            font-family: "Indie Flower", cursive;
+        }
+    }
+}
+.swiper-button-prev:after{
+    font-size: 20px;
+    color: white;
+}
+
+.swiper-button-next:after{
+    font-size: 20px;
+    color: white;
+}
+
+@media only screen and (min-width: 300px) and (max-width:600px) {
+    .slider{
+        .text{
+            top: 30%;
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width:1200px) {
+    .slider{
+        .text{
+            top: 30%;
+            p{
+                font-size: 30px;
+            }
+        }
+    }
+}
